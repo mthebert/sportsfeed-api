@@ -1,0 +1,29 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "Sports Feed API",
+    "description": "Some sports feeds to power a react front end"
+  },
+  "schemes": [
+    "http"
+  ],
+  "host": "localhost:3001",
+  "basePath": "/",
+  "paths": {
+    "/hockey/teams/season/stats": {
+      "get": {
+        "summary": "get season stats for teams",
+        "description": "list of team stats - season",
+        "produces": [
+          "application/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "200 300 response"
+          }
+        }
+      }
+    }
+  }
+}
